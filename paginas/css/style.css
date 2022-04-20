@@ -1,0 +1,83 @@
+/* para todo la pagina
+*{
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+*/
+/*solo para el cuerpo de la pagina*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.2em;
+    margin: 0;
+}
+/*estilo a las clases*/
+.contenedor{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 2rem;
+    line-height: 1.3em;   
+}
+/*con el elemente position fixed, hacemos que la cabecera sea fija*/
+.header{
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+   
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.logo{
+    letter-spacing: 6px;
+    font-size: 1.3em;
+}
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+/*para que el cursor sombree el items del menu*/
+.menu ul li a:hover{
+    background: #4a4a4a;
+}
+/*falseamos el main para que la cabecera no tape el contenido princial*/
+.main{
+    padding-top: 6rem;
+}
+/*pie de pagina*/
+.footer{
+    background: #f2f2f2;
+    padding: 0rem 0;
+    text-align: center;
+    margin-top: 0rem;
+}
+
+
+
+
